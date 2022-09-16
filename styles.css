@@ -17,7 +17,7 @@ body {
 }
 
 body * {
-  font-family: 'Inter', sans-serif;
+  font-family: 'Inconsolata', sans-serif;
   line-height: 160%;
 }
 
@@ -29,7 +29,7 @@ header {
 header div {
   width: 120px;
   margin: auto;
-  background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
+  background-image: linear-gradient(90deg, #d1dc5a 0%, #e0f7e0 25%, #77f2de 50%, #6ac5cb 75%, #45444e 100%);
 
   border-radius: 50%;
 
@@ -59,13 +59,13 @@ main {
 
 section {
   color: white;
-  background-image: linear-gradient(90deg, #9572FC 0%, #43E7AD 50.52%, #E2D45C 100%);
+  background-image: linear-gradient(90deg, #d1dc5a 0%, #e0f7e0 25%, #77f2de 50%, #6ac5cb 75%, #45444e 100%);
   padding-top: 4px;
   border-radius: 10px;
 }
 
 section div {
-  background-color: #2a2634;
+  background-color: #312f35;
   padding: 32px;
   padding-top: 24px;
   border-radius: 8px;
@@ -96,14 +96,15 @@ section ul li:hover {
   transform: scale(1.1);
 }
 
-.games-list img {
+.films-list img {
   width: 90%;
   border-radius: 8px;
+  border: 1px solid #443E54;
 }
 
-.channel-list img {
-  border-radius: 50%;
-  width: 70px;
+.series-list img {
+  width: 90%;
+  border-radius: 8px;
   border: 1px solid #443E54;
 }
 
